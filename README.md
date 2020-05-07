@@ -9,7 +9,7 @@ Link para o curso [Python Pro](https://www.python.pro.br/)
 
 <<<<<<< Updated upstream
 =======
---- NOVO -----  Criação de varios ramos BRANCHES  
+--- NOVO ----  Criação de varios ramos BRANCHES  
 
 >>>>>>> Stashed changes
 
