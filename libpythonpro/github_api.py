@@ -1,6 +1,5 @@
 import requests
 
-
 def buscar_avatar(usuario):
     """
     Busca o avatar de um usuário no Github
@@ -14,4 +13,4 @@ def buscar_avatar(usuario):
 
 
 if __name__ == '__main__':
-    print(buscar_avatar('renzon'))
+    print(buscar_avatar('cacciella'))
