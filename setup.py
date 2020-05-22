@@ -1,3 +1,4 @@
+# https://github.com/pythonprobr/libpythonpro/blob/master/setup.py
 import codecs
 import os
 import sys
@@ -100,7 +101,7 @@ def find_package_data(
                 out.setdefault(package, []).append(prefix + name)
     return out
 
-
+# Alteracoes a serem feitas para cada projeto
 PACKAGE = "libpythonpro"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
@@ -117,10 +118,11 @@ setup(
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
-    license="GNU AFFERO GENERAL PUBLIC LICENSE",
+    license=read('LICENSE'),
     url=URL,
     packages=find_packages(exclude=["tests.*", "tests"]),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
+    # https://pypi.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Environment :: Console",
