@@ -102,8 +102,8 @@ def find_package_data(
     return out
 
 # Alteracoes a serem feitas para cada projeto
-PACKAGE = "libpythonpro"
-NAME = "PACKAGE2"
+PACKAGE = "libpythonpro_02"
+NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Renzo Nuccitelli"
 AUTHOR_EMAIL = "renzo@python.pro.br"
