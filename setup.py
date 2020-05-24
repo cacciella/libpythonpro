@@ -101,7 +101,8 @@ def find_package_data(
                 out.setdefault(package, []).append(prefix + name)
     return out
 
-#  Alteracoes a serem feitas para cada projeto
+
+# Alteracoes a serem feitas para cada projeto
 PACKAGE = "libpythonpro"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
