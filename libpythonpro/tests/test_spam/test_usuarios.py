@@ -23,6 +23,7 @@
 #     conexao.fechar()
 from libpythonpro.spam.modelos import Usuario
 
+
 def test_salvar_usuario(sessao):
     usuario = Usuario(nome='Renzo', email='renzo@python.pro.br')
     sessao.salvar(usuario)
