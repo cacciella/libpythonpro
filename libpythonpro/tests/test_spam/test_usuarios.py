@@ -23,8 +23,6 @@
 #     conexao.fechar()
 
 
-
-
 from libpythonpro.spam.modelos import Usuario
 
 
