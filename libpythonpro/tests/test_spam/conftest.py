@@ -1,3 +1,6 @@
+# permitir que fixtures sejam reutilizadas por
+# diferentes módulos utilizando o arquivo conftest.py
+
 import pytest
 
 from libpythonpro.spam.db import Conexao
