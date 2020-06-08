@@ -1,4 +1,3 @@
-# https://github.com/pythonprobr/libpythonpro/blob/master/setup.py
 import codecs
 import os
 import sys
@@ -123,7 +122,6 @@ setup(
     url=URL,
     packages=find_packages(exclude=["tests.*", "tests"]),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
-    # https://pypi.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Environment :: Console",
@@ -132,7 +130,6 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.8.2",
         "Framework :: Pytest",
     ],
     install_requires=[
